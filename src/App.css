@@ -84,10 +84,70 @@ svg{
   
 }
 
+.propeller:before{
+  animation-name: propeller-running;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0, 0, 0);
+}
+
+@keyframes propeller-running{
+  20%{
+    border-radius: 20px;
+    width: 45px;
+    left: 35px;
+  }
+  
+  40%{
+    width: 45px;
+    left: 55px;
+  }
+  
+
+  60%{
+    width: 45px;
+    left: 80px;
+    border-radius: 10px 0 20px 10px;
+  }
+
+  80%{
+    width: 25px;
+    left: -1px;
+    border-radius: 0 10px 10px 20px;
+  }
+
+  100%{
+    border-radius: 20px;
+    width: 45px;
+    left: 25px;
+  }
+}
+
 .propeller:after{
   width: 35px;
   left: 86px;
   border-radius: 10px 0 20px 10px;
+  animation-name: shine-gone;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  visibility: hidden;
+  /* animation-timing-function: linear; */
+}
+
+@keyframes shine-gone{
+ 
+
+  60%{
+    visibility: hidden;
+  }
+
+  80%{
+   visibility: visible;
+  }
+
+  100%{
+   visibility: hidden;
+  }
 }
 
 .stick{
