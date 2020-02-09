@@ -6,9 +6,20 @@ function App() {
   return (
     <div className="App">
       <div class="content">
+      <div className="helicopter">
+        <div className="propeller"></div>
+        <div className="stick"></div>
+        <div className="autorotation"></div>
+        <div className="airframe"></div>
+        <div className="bottom"></div>
+      </div>
+      <div className="trees"></div>
+      <div className="bench"></div>
+      <div className="cloud"></div>
+      </div>
       <svg viewBox="0 0 100 100">
      
-      {/* <path d="M10 0 V100" stroke-width=".1" stroke="black"/>
+      <path d="M10 0 V100" stroke-width=".1" stroke="black"/>
       <path d="M20 0 V100" stroke-width=".1" stroke="black"/>
       <path d="M30 0 V100" stroke-width=".1" stroke="black"/>
       <path d="M40 0 V100" stroke-width=".1" stroke="black"/>
@@ -49,18 +60,9 @@ function App() {
       <text x="50" y="70" font-size="2"> 70</text>
       <text x="50" y="80" font-size="2"> 80</text>
       <text x="50" y="90" font-size="2"> 90</text>
-      <text x="50" y="100" font-size="2"> 100</text> */}
+      <text x="50" y="100" font-size="2"> 100</text>
 
-      <div className="helicopter">
-        <div className="propeller"></div>
-        <div className="stick"></div>
-        <div className="autorotation"></div>
-        <div className="airframe"></div>
-        <div className="bottom"></div>
-      </div>
-      <div className="trees"></div>
-      <div className="bench"></div>
-      <div className="cloud"></div>
+      
 
       {/* First building, front*/}
       <polygon points="20 30, 30 30, 30 48, 20 48" stroke="#fb5" stroke-width=".3" fill="#fb5"></polygon>
@@ -184,7 +186,6 @@ function App() {
       {/* Fourth building, side-bottom */}
       <polygon points="60 48, 63 48, 63 50, 60 50 " stroke="#dba" stroke-width=".3" fill="#dba"></polygon>
       </svg>
-      </div>
     </div>
   );
 }
