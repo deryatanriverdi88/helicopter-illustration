@@ -19,7 +19,12 @@ function App() {
           <div class="back-window"></div>
           <div class="front-window"></div>
         </div>
-        <div className="bottom"></div>
+        <div className="bottom">
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
       <div className="trees"></div>
       <div className="bench"></div>

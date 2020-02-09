@@ -177,6 +177,7 @@ svg{
   top: -30px;
   border-radius: 0 90px 70px 70px;
   box-shadow: inset 0 -12px 2px #d76;
+  z-index: 1;
 }
 
 .airframe:before, 
@@ -242,4 +243,56 @@ svg{
   transform: rotate(-30deg);
 }
 
+.bottom ul li{
+  background: #d76;
+  position: relative;
+  width: 80px;
+  height: 5px;
+  left: 180px;
+  top: -25px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
 
+}
+
+.bottom ul li:nth-child(2){
+  background: #f87;
+  top: -22px;
+  left: 175px;
+}
+
+.bottom ul li:before, 
+.bottom ul li:after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.bottom ul li:nth-child(1):before, 
+.bottom ul li:nth-child(1):after{
+  background: #d76;
+  height: 10px;
+  width: 5px;
+  left: 28px;
+  top: -10px;
+}
+
+.bottom ul li:nth-child(1):after{
+  left: 58px;
+
+}
+
+.bottom ul li:nth-child(2):before, 
+.bottom ul li:nth-child(2):after{
+  background: #f87;
+  height: 20px;
+  width: 5px;
+  left: 25px;
+  top: -16px;
+
+}
+
+.bottom ul li:nth-child(2):after{
+  left: 55px;
+
+}
