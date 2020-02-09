@@ -15,7 +15,10 @@ function App() {
             <li></li>
           </ul>
         </div>
-        <div className="airframe"></div>
+        <div className="airframe">
+          <div class="back-window"></div>
+          <div class="front-window"></div>
+        </div>
         <div className="bottom"></div>
       </div>
       <div className="trees"></div>
