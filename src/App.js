@@ -9,7 +9,12 @@ function App() {
       <div className="helicopter">
         <div className="propeller"></div>
         <div className="stick"></div>
-        <div className="autorotation"></div>
+        <div className="autorotation">
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
         <div className="airframe"></div>
         <div className="bottom"></div>
       </div>
@@ -19,7 +24,7 @@ function App() {
       </div>
       <svg viewBox="0 0 100 100">
      
-      <path d="M10 0 V100" stroke-width=".1" stroke="black"/>
+      {/* <path d="M10 0 V100" stroke-width=".1" stroke="black"/>
       <path d="M20 0 V100" stroke-width=".1" stroke="black"/>
       <path d="M30 0 V100" stroke-width=".1" stroke="black"/>
       <path d="M40 0 V100" stroke-width=".1" stroke="black"/>
@@ -60,7 +65,7 @@ function App() {
       <text x="50" y="70" font-size="2"> 70</text>
       <text x="50" y="80" font-size="2"> 80</text>
       <text x="50" y="90" font-size="2"> 90</text>
-      <text x="50" y="100" font-size="2"> 100</text>
+      <text x="50" y="100" font-size="2"> 100</text> */}
 
       
 

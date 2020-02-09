@@ -44,6 +44,10 @@
   box-sizing: border-box;
 }
 
+li{
+  list-style: none;
+}
+
 body{
   background: #dff;
 }
@@ -60,7 +64,7 @@ svg{
 .propeller{
   position: relative;
   left: 150px;
-  background: #f86;
+  background: #d76;
   width: 120px;
   height: 8px;
   border-bottom-right-radius: 20px;
@@ -86,7 +90,6 @@ svg{
   border-radius: 10px 0 20px 10px;
 }
 
-
 .stick{
   position: relative;
   top: -15px;
@@ -109,3 +112,46 @@ svg{
   background: #d76;
   border-radius:90px 90px 0 0;
 }
+
+.autorotation {
+ background: #eaa;
+ position: relative;
+ width: 100px;
+ height: 15px;
+ top: -15px;
+ left: 120px;
+ border-bottom-left-radius: 20px;
+ box-shadow: inset 0px -3px 3px #d76;
+}
+
+.autorotation ul li{
+ position: relative;
+ top: -15px;
+ width: 15px;
+ height: 15px;
+ background: #d76;
+ border-top-right-radius: 20px;
+
+}
+
+.autorotation ul li:nth-child(2){
+  top: 0px;
+  left: 13px;
+  transform: rotate(90deg);
+}
+
+.autorotation ul li:nth-child(1):before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -2px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-width: 2px 3px 2px 0;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+  border-radius: 50%;
+  transform: rotate(-40deg);
+}
+
