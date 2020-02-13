@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div class="content">
       <div className="helicopter">
         <div className="propeller"></div>
         <div className="stick"></div>
@@ -26,10 +25,27 @@ function App() {
           </ul>
         </div>
       </div>
-      <div className="trees"></div>
+      <div className="trees">
+        <div className="tree-top">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div className="tree-bottom">
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
       <div className="bench"></div>
       <div className="cloud"></div>
-      </div>
+  
       <svg viewBox="0 0 100 100">
      
       {/* <path d="M10 0 V100" stroke-width=".1" stroke="black"/>
