@@ -43,7 +43,13 @@ function App() {
           </ul>
         </div>
       </div>
-      <div className="bench"></div>
+      <div className="bench">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
       <div className="cloud"></div>
   
       <svg viewBox="0 0 100 100">
