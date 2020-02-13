@@ -50,7 +50,14 @@ function App() {
           <li></li>
         </ul>
       </div>
-      <div className="cloud"></div>
+      <div className="cloud">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
   
       <svg viewBox="0 0 100 100">
      
